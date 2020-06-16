@@ -14,6 +14,7 @@ yarn add react-buttondown
 
 ```js
 import { Buttondown } from 'react-buttondown'
+import 'react-buttondown/dist/react-buttondown.css'
 
 function App() {
   const API_KEY = 'your-buttondown-api-key'
