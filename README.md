@@ -10,7 +10,7 @@ yarn add react-buttondown
 
 ### Usage
 
-`react-buttondown` exports, at the moment, at single `Buttondown` component that serves as a pre-built form for capturing subscribers.
+`react-buttondown` exports, at the moment, a single `Buttondown` component that serves as a pre-built form for capturing subscribers.
 
 ```js
 import { Buttondown } from 'react-buttondown'
