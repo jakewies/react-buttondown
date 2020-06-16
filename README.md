@@ -8,9 +8,9 @@ buttondown.email + react = 💙
 yarn add react-buttondown
 ```
 
-### `Buttondown`
+### Usage
 
-A pre-built form component for subscribing a user.
+`react-buttondown` exports, at the moment, at single `Buttondown` component that serves as a pre-built form for capturing subscribers.
 
 ```js
 import { Buttondown } from 'react-buttondown'
