@@ -1,6 +1,8 @@
 {
   "name": "react-buttondown",
   "version": "0.1.0",
+  "author": "Jake Wiesler",
+  "description": "Integrate your react app with buttondown.email",
   "license": "MIT",
   "source": "src/index.js",
   "main": "dist/react-buttondown.js",
@@ -11,7 +13,20 @@
     "watch": "microbundle watch -o dist/ --sourcemap false --no-compress --jsx React.createElement"
   },
   "devDependencies": {
-    "microbundle": "^0.12.0",
+    "formik": "^2.1.4",
+    "microbundle": "^0.12.1",
+    "prop-types": "^15.7.2",
+    "yup": "^0.29.1"
+  },
+  "peerDependencies": {
     "react": "^16.13.1"
-  }
+  },
+  "homepage": "https://github.com/jakewies/react-buttondown",
+  "bugs": "https://github.com/jakewies/react-buttondown/issues",
+  "keywords": [
+    "buttondown",
+    "react",
+    "newsletter",
+    "email"
+  ]
 }
