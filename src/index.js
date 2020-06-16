@@ -8,7 +8,7 @@ const schema = Yup.object().shape({
   email: Yup.string().required("Required"),
 });
 
-export default function Buttondown({ apiKey, onSubscribe }) {
+export function Buttondown({ apiKey, onSubscribe }) {
   const [subscribed, setSubscribed] = React.useState(false);
   const [error, setError] = React.useState(false);
 
