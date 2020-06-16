@@ -10,8 +10,7 @@
   "unpkg": "dist/react-buttondown.umd.js",
   "scripts": {
     "build": "microbundle -o dist/ --sourcemap false --no-compress --jsx React.createElement",
-    "watch": "microbundle watch -o dist/ --sourcemap false --no-compress --jsx React.createElement",
-    "prepare": "yarn build"
+    "watch": "microbundle watch -o dist/ --sourcemap false --no-compress --jsx React.createElement"
   },
   "devDependencies": {
     "formik": "^2.1.4",
