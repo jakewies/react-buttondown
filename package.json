@@ -1,6 +1,6 @@
 {
   "name": "react-buttondown",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Jake Wiesler",
   "description": "Integrate your react app with buttondown.email",
   "license": "MIT",
