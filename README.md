@@ -87,5 +87,5 @@ const { data, response } = await addSubscriber(email)
 
 ### Contributing
 
-This is a quick component I built for myself. I can definitely see a more robust solution that could involve less components and more hooks so the user can "bring their own form". That would be ideal next steps, along with a better solution for styling.
+This is a quick library I built for myself. I can definitely see a more robust solution, but for now it works for me. If others start using it and have concerns / feature requests please feel free to ask away! I will do my best to keep my changes documented in the meantime.
 
